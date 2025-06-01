@@ -4,9 +4,13 @@ This project is a simple Pokédex web application that allows users to search fo
 
 ## Features
 
-- Search Pokémon by name via input or voice (mic button)
+- Search Pokémon by name via input
 - Displays Pokémon ID, name, types, height, weight, and images
 - Responsive and stylish UI
+
+## Upcoming Improvements
+- Search Pokemon by Voice input
+- An option to display All pokemons data
 
 ## Files
 
