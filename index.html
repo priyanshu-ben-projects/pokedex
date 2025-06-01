@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokédex UI</title>
+  <link rel="stylesheet" href="mex.css" />
+  <script src="mex.js"></script>
+</head>
+<body>
+  <div class="pokedex">
+    <h1>Pokédex</h1>
+    <div class="search-container">
+        <input type="text" id="pokeName" placeholder="Search Pokémon..." class="search-box" />
+        <button onclick="getData()">Search</button>
+        <button onclick="startVoice()" class="mic-btn" title="Speak Pokémon name">🎤</button>
+      </div>
+      
+    <div class="pokemon-card">
+      <img src="" id="pokeImageFront" alt="" />
+      <img src="" id="pokeImageBack" alt="" />
+      <span id="pokeId"></span>
+      <h2 id="name"> --</h2>
+      <p id="pokeType"><strong>Type:</strong> --</p>
+      <p id="pokeHeight"><strong>Height:</strong> --</p>
+      <p id="pokeWeight"><strong>Weight:</strong> --</p>
+    </div>
+  </div>
+</body>
+</html>
